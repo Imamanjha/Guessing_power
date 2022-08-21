@@ -12,7 +12,7 @@ while(True):
     while (i<6):
         b=int(input())
         if (b>99 or b<10):
-            print("jab bola hai 2 digit daalne ko,kardiya na 1 waste\n")
+            print("oops! you entered a non-2 digit number\n")
             print("you have", 5 - i, "guesses left")
             continue
         if b==c:
